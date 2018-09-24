@@ -1,0 +1,128 @@
+body {
+    background: url("../img/contactBg.png") repeat;
+}
+
+.bgWhite {
+    background-color: white;
+}
+
+.bgRed {
+    background-color: #ff3b3f;
+}
+
+.bgBlue {
+    background-color: #caebf2;
+    transition: all 0.2s ease-in-out;
+}
+
+.bgBlue:hover {
+    background-color: #ace4f0;
+}
+
+.colorRed {
+    color: #ff3b3f;
+}
+
+.colorBlue {
+    color: #469eb0;
+}
+
+.colorWhite {
+    color: white;
+}
+
+.colorGray {
+    color: #a9a9a9;
+}
+
+.minSmallHeight {
+    min-height: 50px;
+}
+
+.titleFont {
+    font-size: 24px;
+}
+
+header h1 {
+    padding: 10px 0;
+}
+
+header img {
+    margin-top: 8px;
+}
+
+.miniTitle {
+    margin-top: 15px;
+    font-size: 22px;
+}
+
+.mr-15px {
+    margin-right: 15px;
+}
+
+.mr-30px {
+    margin-right: 30px;
+}
+
+.infoBorder {
+    box-sizing: border-box;
+}
+
+.info {
+    padding: 10px 0;
+    margin-left: 15px;
+}
+
+.form-group input {
+    font-size: 18px;
+    direction: rtl;
+    border-radius: 0;
+    border: none;
+    padding: 10px;
+    color: #469eb0;
+}
+
+.form-group textarea {
+    border-radius: 0;
+    color: #469eb0;
+    font-size: 18px;
+    direction: rtl;
+    min-height: 95px;
+    border: none;
+}
+
+.customBtn {
+    font-size: 17px;
+    border-radius: 0;
+    border: none;
+}
+
+.customBtn img {
+    transition: all 0.2s ease-in;
+    margin-left: 10px;
+
+}
+
+.customBtn span {
+    padding: 5px;
+}
+
+.customBtn:hover > img {
+    margin-left: 0;
+}
+
+.col-sm-1 a {
+    margin-top: 15px;
+    padding: 10px 0;
+    font-size: 21px;
+    transition: all 0.2s ease-in-out;
+}
+
+.col-sm-1 a:hover {
+    background-color: #ff3b3f;
+    color: white;
+}
+
+.col-sm-1 a:hover > img {
+    background: url("../img/backIconHover.png") repeat;
+}
