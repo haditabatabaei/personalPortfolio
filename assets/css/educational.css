@@ -1,0 +1,53 @@
+body {
+
+}
+
+.bgGreen {
+    background-color: #7fd8be;
+}
+
+.bgLightGreen {
+    background-color: #a1fcdf;
+}
+
+.bgOrange {
+    background-color: #fcab64;
+}
+
+.bgLightOrange {
+    background-color: #fcd29f;
+}
+
+.colorGreen {
+    color: #7fd8be;
+}
+
+.colorLightGreen {
+    color: #a1fcdf;
+}
+
+.colorOrange {
+    color: #fcab64;
+}
+
+.colorLightOrange {
+    color: #fcd29f;
+}
+
+.minTitleHeight {
+    min-height: 50px;
+}
+
+.minColHeight {
+    min-height: 350px;
+}
+
+
+
+
+
+
+
+
+
+
