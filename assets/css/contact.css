@@ -111,18 +111,28 @@ header img {
     margin-left: 0;
 }
 
-.col-sm-1 a {
+.col-md-1 a {
     margin-top: 15px;
     padding: 10px 0;
     font-size: 21px;
     transition: all 0.2s ease-in-out;
 }
 
-.col-sm-1 a:hover {
+.col-md-1 a:hover {
     background-color: #ff3b3f;
     color: white;
 }
 
-.col-sm-1 a:hover > img {
+.col-md-1 a:hover > img {
     background: url("../img/backIconHover.png") repeat;
+}
+
+div#contactInfo h6 {
+    cursor: default;
+    transition: all 0.2s ease-in-out;
+}
+
+div#contactInfo h6:hover {
+    color: #469eb0;
+    font-size: 20px;
 }
