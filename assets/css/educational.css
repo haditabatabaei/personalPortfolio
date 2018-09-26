@@ -34,12 +34,33 @@ body {
     color: #fcd29f;
 }
 
+.colorWhite {
+    color: white;
+}
+
 .minTitleHeight {
     min-height: 50px;
 }
 
+.minColTitleHeight {
+    min-height: 30px;
+}
+
 .minColHeight {
     min-height: 350px;
+}
+
+.fontSize-20px {
+    font-size: 35px;
+}
+
+.wrapper{
+    cursor: default;
+}
+
+.wrapper h3 {
+    padding-top: 45px;
+    padding-bottom: 30px;
 }
 
 
