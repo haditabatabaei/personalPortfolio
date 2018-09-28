@@ -1,3 +1,7 @@
+body {
+    direction: rtl;
+}
+
 .bgGreen {
     background-color: #7fd8be;
 }
