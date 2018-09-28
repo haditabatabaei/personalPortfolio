@@ -1,5 +1,6 @@
 body {
     background: url("../img/contactBg.png") repeat;
+    direction: rtl;
 }
 
 .bgWhite {
