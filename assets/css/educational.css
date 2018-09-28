@@ -125,6 +125,12 @@ footer div.float-right {
     min-width: 125px;
 }
 
+#copyright h5 {
+    padding: 10px;
+}
+
+/***** MEDIA QUERY FOR SMALL SCREENS ***/
+
 @media only screen and (max-width: 768px) {
     body {
         /*background: red;*/
