@@ -12,6 +12,7 @@
 
 body {
     background: url("../img/bg.png") repeat;
+    direction: rtl;
 }
 
 a {
