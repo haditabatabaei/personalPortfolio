@@ -124,3 +124,37 @@ footer div.float-right {
 .minSmallWidth {
     min-width: 125px;
 }
+
+@media only screen and (max-width: 768px) {
+    body {
+        /*background: red;*/
+    }
+
+    .imageWrapper img {
+        height: auto;
+    }
+
+    .wrapper:hover > div.imageWrapper img {
+        height: auto !important;
+        margin-top: 0 !important;
+    }
+
+    .wrapper:hover > h3 {
+        opacity: 1;
+        height: auto;
+    }
+
+    .col-md {
+        margin-top: 15px;
+    }
+
+    .minFooterHeight {
+        height: auto !important;
+    }
+
+    #footerTitle {
+        float: none !important;
+        border-left: none;
+        border-bottom: 10px solid #a1fcdf;
+    }
+}
