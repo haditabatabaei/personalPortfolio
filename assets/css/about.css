@@ -1,0 +1,68 @@
+body {
+    direction: rtl;
+}
+
+.bgGreen {
+    background-color: #004346;
+}
+
+.bgLightGreen {
+    background-color: #09bc8a;
+}
+
+.bgBlue {
+    background-color: #172a3a;
+}
+
+.bgLightBlue {
+    background-color: #74b3ce;
+}
+
+.bgMidBlue {
+    background-color: #508991;
+}
+
+.bgBlue:hover {
+    background-color: #172a3a;
+}
+
+.colorWhite {
+    color: white;
+}
+
+.colorLightGreen {
+    color: #09bc8a;
+}
+
+.bgGreen:hover {
+    background-color: #004346;
+}
+
+.colorLightGreen:hover {
+    color: #09bc8a;
+    background: none;
+}
+
+.minTitleHeight {
+    min-height: 50px;
+}
+
+.minFooterHeight {
+
+}
+
+#title h1 {
+    /*padding-bottom: 10px;*/
+}
+
+#content h2 {
+    padding-top: 5px;
+}
+
+#content div.col-sm-3 {
+
+}
+
+#content ul {
+    list-style-image: url("../img/arrow.png");
+}
