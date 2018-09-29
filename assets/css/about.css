@@ -55,6 +55,10 @@ body {
     /*padding-bottom: 10px;*/
 }
 
+#colTitle {
+    border-left: 3px solid #74b3ce;
+}
+
 #content h2 {
     padding-top: 5px;
 }
@@ -64,5 +68,112 @@ body {
 }
 
 #content ul {
-    list-style-image: url("../img/arrow.png");
+    list-style: none;
+    cursor: default;
+}
+
+#content ul li {
+    padding: 10px 10px 10px 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 19px;
+    transition: all 0.3s ease-in-out;
+}
+
+#content ul li img {
+    opacity: 0;
+}
+
+#content ul li:hover > img {
+    opacity: 1;
+}
+
+#content ul li span {
+    margin: 10px;
+}
+
+#content ul li img {
+    margin-right: 10px;
+}
+
+#content ul li:hover {
+    /*list-style: inside url("../img/arrow.png");*/
+    /*list-style-position:;*/
+    background-color: #172a3a;
+}
+
+#colInfoTitle h2.float-right {
+    padding-right: 10px;
+}
+
+#colInfoTitle h2.float-left {
+    padding-left: 10px;
+}
+
+article {
+    padding: 15px;
+    font-size: 17px;
+    line-height: 30px;
+}
+
+.moreLink {
+    padding: 10px;
+    font-size: 17px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.moreLink:hover {
+    background-color: #172a3a;
+}
+
+#languageCol {
+    border-left: 5px solid #004346;
+}
+
+#languageCol a {
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+#languageCol a:hover {
+    background-color: #004346;
+}
+
+#backCol {
+    border-right: 5px solid #004346;
+    transition: all 0.2s ease-in-out;
+}
+
+#backCol:hover {
+    background-color: #004346;
+}
+
+#backCol img {
+    transition: all 0.2s ease-in-out;
+}
+
+#backCol:hover > a img {
+    transform: rotate(360deg);
+}
+
+#backCol a {
+    font-size: 17px;
+    padding: 10px;
+}
+
+#backCol span {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#copyright h5        {
+    margin-top: 20px;
+    line-height: 30px;
 }
