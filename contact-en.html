@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <title>Contact Me - Seyed Mohammad Hadi Tabatabaei</title>
+    <style>
+        .form-group input {
+            direction: ltr;
+            text-align: left;
+        }
+
+        .form-group textarea {
+            direction: ltr;
+            text-align: left;
+        }
+
+        button[type="submit"] img {
+            transform: rotate(180deg);
+            margin-right: 10px;
+        }
+
+        button[type="submit"]:hover > img {
+            margin-right: 0;
+        }
+    </style>
+</head>
+<body style="direction: ltr;">
+<header>
+    <section class="container minSmallHeight bgWhite text-left">
+        <section class="row titleRow">
+            <div class="col-sm">
+                <div class="float-right h-100">
+                    <img src="assets/img/informationIcon.png" alt="information icon" draggable="false">
+                </div>
+                <h1 class="float-left corbelFont colorGray titleFont">Contact Me</h1>
+            </div>
+        </section>
+    </section>
+    <section class="container p-0">
+        <section class="row no-gutters text-left">
+            <div class="col-md-4">
+                <h5 class="corbelFont colorRed miniTitle ">Contact Form</h5>
+                <form action="contact.php" class="corbelFont colorBlue text-left" style="direction:ltr;">
+                    <div class="form-group">
+                        <input type="text" class="form-control bgBlue" id="inputFirstName"
+                               aria-describedby="firstNameHelp"
+                               placeholder="First Name">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" class="form-control bgBlue" id="inputLastName"
+                               aria-describedby="lastNameHelp"
+                               placeholder="Last Name">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="email" class="form-control bgBlue" id="inputEmail" aria-describedby="emailHelp"
+                               placeholder="Email">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="number" class="form-control bgBlue" id="inputPhone" aria-describedby="phoneHelp"
+                               placeholder="Phone Number">
+                    </div>
+
+                    <div class="form-group">
+                        <textarea class="form-control bgBlue" id="inputMessage" aria-describedby="messageHelp"
+                                  placeholder="Your Message"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary float-right customBtn bgRed">
+                        <span class="float-right">
+                    Send
+                    </span>
+                        <img src="assets/img/sendIcon.png" alt="send icon" class="float-left">
+                    </button>
+                </form>
+            </div>
+            <div class="col-md" id="contactInfo">
+                <h5 class="corbelFont colorRed miniTitle mr-15px">Contact Information</h5>
+                <h6 class="colorGray mr-30px infoBorder info"><span class="corbelFont float-left text-left"
+                                                                    style="direction: ltr">First Email :</span><span
+                        class="corbelFont float-right" style="direction:ltr">me@haditabatabaei.ir</span></h6>
+
+                <h6 class="colorGray mr-30px infoBorder info"><span class="corbelFont float-left text-left"
+                                                                    style="direction: ltr">Second Email :</span><span
+                        class="corbelFont float-right" style="direction:ltr">hadi.tabatabaei@aut.ac.ir</span></h6>
+
+                <h6 class="colorGray mr-30px infoBorder info"><span class="corbelFont float-left text-left"
+                                                                    style="direction: ltr">Third Email :</span><span
+                        class="corbelFont float-right" style="direction:ltr">hadi.tabatabaei.aut@gmail.com</span></h6>
+
+                <h6 class="colorGray mr-30px infoBorder info"><span class="corbelFont float-left text-left"
+                                                                    style="direction: ltr">Phone Number :</span><span
+                        class="corbelFont float-right" style="direction:ltr">+98 903 182 3553</span></h6>
+
+                <h6 class="colorGray mr-30px infoBorder info"><span class="corbelFont float-left text-left"
+                                                                    style="direction: ltr">Telegram :</span><span
+                        class="corbelFont float-right" style="direction:ltr">@hadi_tabatabaei</span></h6>
+
+                <h6 class="colorGray mr-30px infoBorder info"><span class="corbelFont float-left text-left"
+                                                                    style="direction: ltr">Instagram : </span><span
+                        class="corbelFont float-right" style="direction:ltr">@hadi_tt</span></h6>
+            </div>
+            <div class="col-md-1">
+                <a href="landing.html" class="text-center d-block corbelFont bgWhite colorRed w-100"
+                   onmouseenter="changeMySrc(1)" onmouseleave="changeMySrc(0)">
+                    <span>First Page</span>
+                    <br>
+                    <img src="assets/img/backIcon.png" alt="back icon"
+                         name="backImageIcon" style="transform:rotate(180deg)">
+                </a>
+
+                <a href="contact-en.html" class="text-center d-block corbelFont bgWhite colorRed w-100">
+                    <span>English</span>
+                    <!--<br>-->
+                    <!--<img src="assets/img/backIcon.png" alt="back icon"-->
+                    <!--name="backImageIcon" style="transform:rotate(180deg)">-->
+                </a>
+                <a href="contact.html" class="text-center d-block yekanFont bgWhite colorRed w-100">
+                    <span>فارسی</span>
+                    <!--<br>-->
+                    <!--<img src="assets/img/backIcon.png" alt="back icon"-->
+                    <!--name="backImageIcon" style="transform:rotate(180deg)">-->
+                </a>
+            </div>
+
+        </section>
+    </section>
+</header>
+<script src="assets/js/customJs.js"></script>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"-->
+<!--integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"-->
+<!--crossorigin="anonymous"></script>-->
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"-->
+<!--integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"-->
+<!--crossorigin="anonymous"></script>-->
+<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"-->
+<!--integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"-->
+<!--crossorigin="anonymous"></script>-->
+</body>
+</html>
