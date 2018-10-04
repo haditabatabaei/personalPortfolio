@@ -1,0 +1,23 @@
+body {
+    cursor: default;
+}
+
+table a {
+    color: #4b9f4b;
+}
+
+table a:hover {
+    color: #78c078;
+}
+
+table tr:hover {
+    color: #ef9696;
+}
+
+.nav-link {
+    border-radius: 5px;
+}
+
+.nav-link:hover {
+    background-color: #1b1b1b !important;
+}
